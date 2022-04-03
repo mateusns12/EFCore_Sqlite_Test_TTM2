@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
 namespace EntityFramework_class
@@ -7,8 +5,8 @@ namespace EntityFramework_class
     public class TestContext: DbContext
     {
         //public TestContext(DbContextOptions options) : base(options){}
-        public DbSet<GRAFICOS_ID> Grafico {get; set;}
-        public DbSet<GRAFICOS_DADOS> Dados {get; set;}
+        public DbSet<GRAFICOS_ID>? Grafico {get; set;}
+        public DbSet<GRAFICOS_DADOS>? Dados {get; set;}
         public string DBPatch {get;}
 
         public TestContext()
