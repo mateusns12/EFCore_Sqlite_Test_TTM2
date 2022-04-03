@@ -1,5 +1,5 @@
 # EF Core Sqlite Test - Persistent Chart Data 
-Testing Entity Framework Core implementation for Tensile Testing Machine Version 2.0
+Testing Entity Framework Core implementation for Tensile Testing Machine Version 2.0, using the Code First aproach.
 
 The TTM generates a chart with the axis: Load (Newtons) x Deformation (%). Each axis has its values saved in a list.
 
