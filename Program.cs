@@ -1,9 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Sqlite;
-using EntityFramework_class;
-using System.Linq;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using EntityFramework_class;
 
 namespace csharp_entity_framework
 {
@@ -46,7 +41,7 @@ namespace csharp_entity_framework
         static void Main(string[] args)
         {
             //CreateGraph(DateTime.Now,"Aluminio", carga, deslocamento);
-            DeleteGraph(1);
+            //DeleteGraph(2);
         }
     }
 }
