@@ -17,6 +17,6 @@ This branch will no longer be the main branch soon. Code will be changed to Engl
 
 # Next Steps
 
-- [] Change Chart id type from int to Guid
-- [] Create all basic CRUD operations
-- [] Test model construction with Records, instead of Classes
+- [ ] Change Chart id type from int to Guid
+- [ ] Create all basic CRUD operations
+- [ ] Test model construction with Records, instead of Classes
